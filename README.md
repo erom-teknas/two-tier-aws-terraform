@@ -1,6 +1,8 @@
 # 🚀 Welcome to our AWS Deployment with Terraform! 🌟
 
-This Terraform script orchestrates the creation of a robust AWS infrastructure for our **Demo Application** following a two-tier architecture.
+This Terraform script orchestrates the creation of a robust AWS infrastructure for our **Demo Application** following a two-tier architecture (Note: Please ignore S3 connection as we are going to use in our case).
+
+![alt text](images/tf-2-tier-aws.png)
 
 ## 🌐 Network Configuration
 
@@ -98,12 +100,12 @@ To deploy this infrastructure:
 
 Clone this repository:
 ```bash
-git clone 
+git clone https://github.com/erom-teknas/two-tier-aws-terraform.git
 ```
 
 Navigate to the cloned directory:
 ```sh
-cd your-repository
+cd two-tier-aws-terraform/terraform
 ```
 
 Initialize Terraform:
